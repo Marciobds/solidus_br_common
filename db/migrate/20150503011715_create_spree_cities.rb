@@ -1,4 +1,5 @@
-class CreateSpreeCities < ActiveRecord::Migration
+# frozen_string_literal: true
+class CreateSpreeCities < SolidusSupport::Migration[4.2]
   def change
     create_table :spree_cities do |t|
       t.references :state

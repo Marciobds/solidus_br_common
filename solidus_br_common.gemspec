@@ -16,10 +16,10 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'solidus_core','~>  2.2.2'
+  s.add_runtime_dependency 'solidus_core'
   s.add_runtime_dependency 'cpf_cnpj'
   s.add_runtime_dependency 'validates_timeliness', '~> 4.0'
-  s.add_runtime_dependency 'rest-client', '~> 1.8', '>= 1.8.0'
+  s.add_runtime_dependency 'rest-client', '~> 2.0'
 
   s.add_development_dependency 'capybara', '~> 2.4'
   s.add_development_dependency 'coffee-rails', '~> 4.1', '>= 4.1.0'

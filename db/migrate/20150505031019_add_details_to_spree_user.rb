@@ -1,4 +1,5 @@
-class AddDetailsToSpreeUser < ActiveRecord::Migration
+# frozen_string_literal: true
+class AddDetailsToSpreeUser < SolidusSupport::Migration[4.2]
   def change
     unless defined?(User)
       change_table :spree_users do |t|
